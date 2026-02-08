@@ -1,0 +1,65 @@
+[
+ {
+   "id": "dq_2026_time_001",
+   "question_text": "¿Qué parte de tu semana se repite sin que la elijas?",
+   "reflection_text": "Muchas partes de la semana no se deciden de forma consciente. Aparecen solas, se instalan, y un día ya están ahí. No porque las hayamos elegido, sino porque se acomodaron entre obligaciones, cansancio y costumbre.\\n\\nLa repetición no siempre es un problema. A veces es lo que sostiene. Otras veces es simplemente lo que queda cuando dejamos de preguntarnos. Lo curioso es que solemos notar el paso del tiempo, pero no el patrón que lo ocupa.\\n\\nHay repeticiones que protegen y otras que apagan lentamente. No se sienten como errores, se sienten como normalidad. Y por eso pasan tanto tiempo sin ser vistas.\\n\\nTal vez no se trate de cambiar nada hoy. Tal vez baste con notar qué parte de la semana ocurre incluso cuando no estás mirando.",
+   "category": "Tiempo",
+   "day_of_week": "monday",
+   "language": "es",
+   "is_active": true
+ },
+ {
+   "id": "dq_2026_decisions_001",
+   "question_text": "¿Qué decisión sigues tomando solo para no tener que tomar otra?",
+   "reflection_text": "No todas las decisiones se sienten como elecciones. Algunas se repiten por inercia, no porque sean correctas, sino porque evitan una incomodidad mayor.\\n\\nA veces sostener una decisión conocida parece más fácil que enfrentarse a la posibilidad de cambiarla. No porque no haya alternativas, sino porque cada alternativa tiene un costo distinto.\\n\\nMuchas decisiones no se toman una vez. Se vuelven a tomar cada día, en silencio, sin que nadie lo note demasiado.\\n\\nTal vez la pregunta no sea qué decidir ahora, sino qué decisión sigues eligiendo sin volver a mirarla.",
+   "category": "Decisiones",
+   "day_of_week": "tuesday",
+   "language": "es",
+   "is_active": true
+ },
+ {
+   "id": "dq_2026_power_001",
+   "question_text": "¿En qué situaciones callas no por respeto, sino por control?",
+   "reflection_text": "Callar no siempre es una señal de cuidado. A veces es una forma silenciosa de mantener el control de una situación, de no ceder terreno, de no exponerse.\\n\\nEl silencio puede proteger, pero también puede marcar distancia. No siempre se nota desde fuera, y muchas veces ni siquiera desde dentro.\\n\\nHay palabras que no se dicen no porque falten, sino porque decirlas cambiaría algo. Y no siempre estamos dispuestos a asumir ese cambio.\\n\\nObservar cuándo callas puede decir tanto de ti como las veces en que decides hablar.",
+   "category": "Poder",
+   "day_of_week": "wednesday",
+   "language": "es",
+   "is_active": true
+ },
+ {
+   "id": "dq_2026_tech_humanity_001",
+   "question_text": "¿Qué cosa importante dejaste de recordar porque tu teléfono lo hace por ti?",
+   "reflection_text": "Muchas funciones que antes dependían de nosotros ahora están delegadas. No por pereza, sino por comodidad. Recordar, calcular, orientarse dejó de ser una tarea cotidiana.\\n\\nLa tecnología no quita capacidades de golpe. Las va desplazando lentamente, hasta que un día notamos que ya no las usamos.\\n\\nNo siempre es una pérdida. A veces es un alivio. Pero ese alivio también cambia la forma en que nos relacionamos con nuestra propia atención.\\n\\nQuizás no se trata de recuperar nada, sino de notar qué cosas ya no habitan en la memoria como antes.",
+   "category": "Tecnologia & Humanidad",
+   "day_of_week": "thursday",
+   "language": "es",
+   "is_active": true
+ },
+ {
+   "id": "dq_2026_creativity_001",
+   "question_text": "¿Qué idea te entusiasma pero sigues postergando sin una buena razón?",
+   "reflection_text": "No todas las ideas piden ser realizadas de inmediato. Algunas aparecen solo para recordarnos algo que todavía no estamos listos para mostrar.\\n\\nPostergar no siempre es falta de disciplina. A veces es miedo, otras veces es cuidado, y muchas veces es simplemente esperar el momento adecuado.\\n\\nLas ideas que más entusiasman suelen ser también las que más exponen. Por eso no se empujan, se rodean.\\n\\nTal vez baste con reconocer qué idea sigue ahí, incluso cuando decides no tocarla.",
+   "category": "Creatividad",
+   "day_of_week": "friday",
+   "language": "es",
+   "is_active": true
+ },
+ {
+   "id": "dq_2026_future_001",
+   "question_text": "¿Qué parte de tu futuro evitas imaginar porque te expone demasiado?",
+   "reflection_text": "Imaginar el futuro no siempre es planificar. A veces es solo permitirse mirar un poco más allá de lo cómodo.\\n\\nHay futuros que evitamos no porque sean imposibles, sino porque nos obligan a reconocernos de otra manera. Nos muestran deseos, miedos o contradicciones que preferimos no nombrar.\\n\\nNo todo lo que se imagina quiere convertirse en meta. Algunas imágenes solo piden ser vistas.\\n\\nQuizás el ejercicio no sea proyectarse, sino notar qué parte del futuro sigue fuera de foco.",
+   "category": "Futuro",
+   "day_of_week": "saturday",
+   "language": "es",
+   "is_active": true
+ },
+ {
+   "id": "dq_2026_time_002",
+   "question_text": "¿Qué momento ordinario de tu vida recuerdas con más claridad de lo esperado?",
+   "reflection_text": "La memoria no siempre se queda con lo importante. A veces se aferra a escenas pequeñas, casi insignificantes, que no parecían merecer atención.\\n\\nEsos recuerdos no suelen tener un motivo claro. No marcan hitos ni cierres. Simplemente permanecen.\\n\\nTal vez porque en ellos había algo verdadero, algo que no necesitaba ser explicado ni justificado.\\n\\nRecordar ciertos momentos puede no decirnos qué pasó, pero sí qué quedó.",
+   "category": "Tiempo",
+   "day_of_week": "sunday",
+   "language": "es",
+   "is_active": true
+ }
+]

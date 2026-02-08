@@ -4,6 +4,7 @@ struct Home: View {
     @State private var showAccount = false
 
     @ObservedObject var day: DayState
+    let question: DailyQuestion
 
     
     var body: some View {
@@ -44,10 +45,11 @@ struct Home: View {
             Spacer().frame(height: 32) // lg
             Spacer().frame(height: 48) // xl
 
-            Text("¿Qué idea te acompañó hoy?")
+            Text(question.questionText)
                 .font(.system(size: 26, weight: .semibold))
                 .foregroundColor(Color("TextPrimary"))
                 .multilineTextAlignment(.leading)
+
 
             Spacer().frame(height: 16) // ms
 

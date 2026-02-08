@@ -24,6 +24,10 @@
 		0BBBC6EE2F3830D40047F677 /* DQSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6ED2F3830D40047F677 /* DQSubtitle.swift */; };
 		0BBBC6F02F3830F20047F677 /* DQMicrotext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6EF2F3830F20047F677 /* DQMicrotext.swift */; };
 		0BBBC6F22F38310A0047F677 /* DQCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6F12F38310A0047F677 /* DQCard.swift */; };
+		0BBBC6F62F3841150047F677 /* DailyQuestionLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6F52F3841150047F677 /* DailyQuestionLoader.swift */; };
+		0BBBC6F82F38412E0047F677 /* daily_questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BBBC6F72F38412E0047F677 /* daily_questions.json */; };
+		0BBBC6FA2F3841700047F677 /* DailyQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6F92F3841700047F677 /* DailyQuestion.swift */; };
+		0BBBC6FD2F3847F00047F677 /* Date+Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6FC2F3847F00047F677 /* Date+Weekday.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +49,10 @@
 		0BBBC6ED2F3830D40047F677 /* DQSubtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DQSubtitle.swift; sourceTree = "<group>"; };
 		0BBBC6EF2F3830F20047F677 /* DQMicrotext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DQMicrotext.swift; sourceTree = "<group>"; };
 		0BBBC6F12F38310A0047F677 /* DQCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DQCard.swift; sourceTree = "<group>"; };
+		0BBBC6F52F3841150047F677 /* DailyQuestionLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuestionLoader.swift; sourceTree = "<group>"; };
+		0BBBC6F72F38412E0047F677 /* daily_questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = daily_questions.json; sourceTree = "<group>"; };
+		0BBBC6F92F3841700047F677 /* DailyQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuestion.swift; sourceTree = "<group>"; };
+		0BBBC6FC2F3847F00047F677 /* Date+Weekday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Weekday.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,8 @@
 		0B41C6942F35705500EDC618 = {
 			isa = PBXGroup;
 			children = (
+				0BBBC6FB2F3847D50047F677 /* Utilities */,
+				0BBBC6F42F3840EA0047F677 /* Data */,
 				0BBBC6DD2F3815980047F677 /* Services */,
 				0BBBC6DA2F3815750047F677 /* Models */,
 				0BBBC6D02F3810600047F677 /* Views */,
@@ -113,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				0BBBC6DB2F3815820047F677 /* MemoryItem.swift */,
+				0BBBC6F92F3841700047F677 /* DailyQuestion.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -152,6 +163,23 @@
 				0BBBC6F12F38310A0047F677 /* DQCard.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		0BBBC6F42F3840EA0047F677 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0BBBC6F52F3841150047F677 /* DailyQuestionLoader.swift */,
+				0BBBC6F72F38412E0047F677 /* daily_questions.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0BBBC6FB2F3847D50047F677 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0BBBC6FC2F3847F00047F677 /* Date+Weekday.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BBBC6CA2F380E7B0047F677 /* Assets.xcassets in Resources */,
+				0BBBC6F82F38412E0047F677 /* daily_questions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,9 +256,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BBBC6CF2F38102E0047F677 /* DayState.swift in Sources */,
+				0BBBC6FA2F3841700047F677 /* DailyQuestion.swift in Sources */,
 				0BBBC6E22F3815EA0047F677 /* MemoryFreeView.swift in Sources */,
 				0BBBC6EE2F3830D40047F677 /* DQSubtitle.swift in Sources */,
 				0BBBC6F02F3830F20047F677 /* DQMicrotext.swift in Sources */,
+				0BBBC6FD2F3847F00047F677 /* Date+Weekday.swift in Sources */,
+				0BBBC6F62F3841150047F677 /* DailyQuestionLoader.swift in Sources */,
 				0BBBC6D22F3810770047F677 /* DailyFlowView.swift in Sources */,
 				0BBBC6DC2F3815820047F677 /* MemoryItem.swift in Sources */,
 				0BBBC6F22F38310A0047F677 /* DQCard.swift in Sources */,
