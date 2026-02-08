@@ -20,6 +20,10 @@
 		0BBBC6E52F3816EE0047F677 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6E42F3816EE0047F677 /* AccountView.swift */; };
 		0BBBC6E72F3818F30047F677 /* MemoryLockedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6E62F3818F30047F677 /* MemoryLockedView.swift */; };
 		0BBBC6E92F381B0C0047F677 /* MemoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6E82F381B0C0047F677 /* MemoryCardView.swift */; };
+		0BBBC6EC2F3830960047F677 /* DQTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6EB2F3830960047F677 /* DQTitle.swift */; };
+		0BBBC6EE2F3830D40047F677 /* DQSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6ED2F3830D40047F677 /* DQSubtitle.swift */; };
+		0BBBC6F02F3830F20047F677 /* DQMicrotext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6EF2F3830F20047F677 /* DQMicrotext.swift */; };
+		0BBBC6F22F38310A0047F677 /* DQCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6F12F38310A0047F677 /* DQCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		0BBBC6E42F3816EE0047F677 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		0BBBC6E62F3818F30047F677 /* MemoryLockedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLockedView.swift; sourceTree = "<group>"; };
 		0BBBC6E82F381B0C0047F677 /* MemoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCardView.swift; sourceTree = "<group>"; };
+		0BBBC6EB2F3830960047F677 /* DQTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DQTitle.swift; sourceTree = "<group>"; };
+		0BBBC6ED2F3830D40047F677 /* DQSubtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DQSubtitle.swift; sourceTree = "<group>"; };
+		0BBBC6EF2F3830F20047F677 /* DQMicrotext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DQMicrotext.swift; sourceTree = "<group>"; };
+		0BBBC6F12F38310A0047F677 /* DQCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DQCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,7 @@
 		0BBBC6D02F3810600047F677 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0BBBC6EA2F38307A0047F677 /* Components */,
 				0BBBC6E32F3816E00047F677 /* Account */,
 				0BBBC6E02F3815D60047F677 /* Memory */,
 				0BBBC6D32F3812DE0047F677 /* Daily */,
@@ -132,6 +141,17 @@
 				0BBBC6E42F3816EE0047F677 /* AccountView.swift */,
 			);
 			path = Account;
+			sourceTree = "<group>";
+		};
+		0BBBC6EA2F38307A0047F677 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0BBBC6EB2F3830960047F677 /* DQTitle.swift */,
+				0BBBC6ED2F3830D40047F677 /* DQSubtitle.swift */,
+				0BBBC6EF2F3830F20047F677 /* DQMicrotext.swift */,
+				0BBBC6F12F38310A0047F677 /* DQCard.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,8 +228,11 @@
 			files = (
 				0BBBC6CF2F38102E0047F677 /* DayState.swift in Sources */,
 				0BBBC6E22F3815EA0047F677 /* MemoryFreeView.swift in Sources */,
+				0BBBC6EE2F3830D40047F677 /* DQSubtitle.swift in Sources */,
+				0BBBC6F02F3830F20047F677 /* DQMicrotext.swift in Sources */,
 				0BBBC6D22F3810770047F677 /* DailyFlowView.swift in Sources */,
 				0BBBC6DC2F3815820047F677 /* MemoryItem.swift in Sources */,
+				0BBBC6F22F38310A0047F677 /* DQCard.swift in Sources */,
 				0BBBC6E52F3816EE0047F677 /* AccountView.swift in Sources */,
 				0BBBC6D52F3812F70047F677 /* Home.swift in Sources */,
 				0BBBC6D92F3814360047F677 /* Completed.swift in Sources */,
@@ -217,6 +240,7 @@
 				0BBBC6D72F3813800047F677 /* Reflection.swift in Sources */,
 				0BBBC6E92F381B0C0047F677 /* MemoryCardView.swift in Sources */,
 				0BBBC6CC2F380E7B0047F677 /* dailyQApp.swift in Sources */,
+				0BBBC6EC2F3830960047F677 /* DQTitle.swift in Sources */,
 				0BBBC6E72F3818F30047F677 /* MemoryLockedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
