@@ -2,6 +2,8 @@ import SwiftUI
 
 struct AccountView: View {
 
+    @State private var showMemory = false
+
     @Environment(\.dismiss) private var dismiss
 
     var body: some View {
@@ -18,7 +20,7 @@ struct AccountView: View {
                 .font(.system(size: 15))
 
             Button {
-                // acceso a Memoria
+                showMemory = true
             } label: {
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Memoria")
@@ -34,9 +36,14 @@ struct AccountView: View {
                 .cornerRadius(12)
             }
 
+
             Spacer()
         }
         .padding(32)
+        .sheet(isPresented: $showMemory) {
+            MemoryFreeView()
+        }
+
     }
 }
 
