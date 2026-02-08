@@ -7,7 +7,8 @@ struct DailyQApp: App {
 
     var body: some Scene {
         WindowGroup {
-            DailyFlowView(day: day)
+            MemoryFreeView()
+
         }
     }
 }
