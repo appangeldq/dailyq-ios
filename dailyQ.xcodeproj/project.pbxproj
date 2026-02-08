@@ -13,6 +13,7 @@
 		0BBBC6D22F3810770047F677 /* DailyFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6D12F3810770047F677 /* DailyFlowView.swift */; };
 		0BBBC6D52F3812F70047F677 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6D42F3812F70047F677 /* Home.swift */; };
 		0BBBC6D72F3813800047F677 /* Reflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6D62F3813800047F677 /* Reflection.swift */; };
+		0BBBC6D92F3814360047F677 /* Completed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6D82F3814360047F677 /* Completed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0BBBC6D12F3810770047F677 /* DailyFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFlowView.swift; sourceTree = "<group>"; };
 		0BBBC6D42F3812F70047F677 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		0BBBC6D62F3813800047F677 /* Reflection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reflection.swift; sourceTree = "<group>"; };
+		0BBBC6D82F3814360047F677 /* Completed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Completed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				0BBBC6D12F3810770047F677 /* DailyFlowView.swift */,
 				0BBBC6D42F3812F70047F677 /* Home.swift */,
 				0BBBC6D62F3813800047F677 /* Reflection.swift */,
+				0BBBC6D82F3814360047F677 /* Completed.swift */,
 			);
 			path = Daily;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				0BBBC6CF2F38102E0047F677 /* DayState.swift in Sources */,
 				0BBBC6D22F3810770047F677 /* DailyFlowView.swift in Sources */,
 				0BBBC6D52F3812F70047F677 /* Home.swift in Sources */,
+				0BBBC6D92F3814360047F677 /* Completed.swift in Sources */,
 				0BBBC6D72F3813800047F677 /* Reflection.swift in Sources */,
 				0BBBC6CC2F380E7B0047F677 /* dailyQApp.swift in Sources */,
 			);

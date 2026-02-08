@@ -10,11 +10,12 @@ struct DailyFlowView: View {
             Home(day: day)
 
         case .answering:
-            Text("Answering")
+            Reflection(day: day)
 
         case .completed:
-            Text("Completed")
+            Completed(day: day)
         }
     }
 }
+
 
