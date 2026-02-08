@@ -5,37 +5,22 @@ struct MemoryCardView: View {
     let memory: MemoryItem
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
+        DQCard {
 
             // Fecha
-            Text(memory.date.formatted(date: .long, time: .omitted))
-                .font(.system(size: 12))
-                .foregroundColor(
-                    Color("TextSecondary").opacity(0.4)
-                )
+            DQMicroText(
+                text: memory.date.formatted(date: .long, time: .omitted)
+            )
 
             // Pregunta
-            Text(memory.question)
-                .font(.system(size: 15, weight: .semibold))
-                .foregroundColor(
-                    Color("TextPrimary")
-                )
-                .lineLimit(3)
+            DQTitle(text: memory.question)
 
             // Nota (si existe)
             if let note = memory.note, !note.isEmpty {
-                Text(note)
-                    .font(.system(size: 13, weight: .regular))
-                    .foregroundColor(
-                        Color("TextSecondary").opacity(0.6)
-                    )
-                    .lineLimit(2)
+                DQSubtitle(text: note)
             }
         }
-        .padding(16)
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Color("BackgroundSecondary"))
-        .cornerRadius(12)
     }
 }
+
 
