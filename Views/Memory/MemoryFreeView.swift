@@ -2,6 +2,8 @@ import SwiftUI
 
 struct MemoryFreeView: View {
 
+    @State private var showLocked = false
+
     let memories = MemoryLoader.load()
 
     var body: some View {
@@ -24,11 +26,19 @@ struct MemoryFreeView: View {
                 .padding()
                 .background(Color.gray.opacity(0.1))
                 .cornerRadius(12)
+                .onTapGesture {
+                    showLocked = true
+                }
             }
+
 
             Spacer()
         }
         .padding(32)
+        .sheet(isPresented: $showLocked) {
+            MemoryLockedView()
+        }
+
     }
 }
 
