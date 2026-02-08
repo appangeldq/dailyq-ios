@@ -6,17 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0BBBC6CA2F380E7B0047F677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BBBC6C72F380E7B0047F677 /* Assets.xcassets */; };
+		0BBBC6CC2F380E7B0047F677 /* dailyQApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6C92F380E7B0047F677 /* dailyQApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		0B41C69D2F35705500EDC618 /* dailyQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dailyQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BBBC6C72F380E7B0047F677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BBBC6C92F380E7B0047F677 /* dailyQApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyQApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		0B41C69F2F35705500EDC618 /* dailyQ */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = dailyQ;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0B41C69A2F35705500EDC618 /* Frameworks */ = {
@@ -32,7 +31,8 @@
 		0B41C6942F35705500EDC618 = {
 			isa = PBXGroup;
 			children = (
-				0B41C69F2F35705500EDC618 /* dailyQ */,
+				0BBBC6C92F380E7B0047F677 /* dailyQApp.swift */,
+				0BBBC6C72F380E7B0047F677 /* Assets.xcassets */,
 				0B41C69E2F35705500EDC618 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +59,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				0B41C69F2F35705500EDC618 /* dailyQ */,
 			);
 			name = dailyQ;
 			packageProductDependencies = (
@@ -109,6 +106,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBBC6CA2F380E7B0047F677 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +117,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBBC6CC2F380E7B0047F677 /* dailyQApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
