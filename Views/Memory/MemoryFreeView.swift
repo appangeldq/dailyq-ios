@@ -13,22 +13,10 @@ struct MemoryFreeView: View {
                 .font(.system(size: 15))
 
             ForEach(memories) { memory in
-                VStack(alignment: .leading, spacing: 8) {
-
-                    Text(memory.date.formatted(date: .long, time: .omitted))
-                        .font(.system(size: 12))
-                        .foregroundColor(.secondary)
-
-                    Text(memory.text)
-                        .font(.system(size: 13))
-                        .lineLimit(3)
-                }
-                .padding()
-                .background(Color.gray.opacity(0.1))
-                .cornerRadius(12)
-                .onTapGesture {
-                    showLocked = true
-                }
+                MemoryCardView(memory: memory)
+                    .onTapGesture {
+                        showLocked = true
+                    }
             }
 
 
