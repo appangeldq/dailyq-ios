@@ -12,7 +12,7 @@ struct Home: View {
             // HEADER
             HStack {
                 Text("dailyQ")
-                    .font(.system(size: 15, weight: .regular))
+                    .font(.system(size: 15))
                     .foregroundColor(Color("TextPrimary"))
 
                 Spacer()
@@ -27,38 +27,41 @@ struct Home: View {
 
             // SLOT RACHA (siempre ocupa espacio)
             DQSubtitle(text: "7 días pensando con calma")
-                .opacity(0) // luego lo activamos con lógica
+                .opacity(0) // luego lógica real
 
             // SPACING LG
             Spacer().frame(height: 32)
 
             // CATEGORÍA
             DQSubtitle(text: "Reflexión")
-
                 .foregroundColor(Color("TextTertiary").opacity(0.6))
 
-            // SPACING LG
-            Spacer().frame(height: 32)
+            // ───────────────
+            // CONTENEDOR PREGUNTA (H = 304)
+            // ───────────────
 
-            // PREGUNTA
+            Spacer().frame(height: 32) // lg
+            Spacer().frame(height: 32) // lg
+            Spacer().frame(height: 48) // xl
+
             Text("¿Qué idea te acompañó hoy?")
-
                 .font(.system(size: 26, weight: .semibold))
                 .foregroundColor(Color("TextPrimary"))
                 .multilineTextAlignment(.leading)
 
-            // DOBLE SPACING LG
-            Spacer().frame(height: 64)
+            Spacer().frame(height: 16) // ms
 
-            // TEXTO EDITORIAL
-            DQMicroText(text: "No hay respuestas correctas.")
-
+            // FLEX
             Spacer()
 
-            // SPACING 2XL
+            // ───────────────
+            // BLOQUE CTA
+            // ───────────────
+
+            DQMicroText(text: "No hay respuestas correctas.")
+
             Spacer().frame(height: 48)
 
-            // CTA
             Button {
                 day.status = .answering
             } label: {
@@ -70,10 +73,10 @@ struct Home: View {
                     .background(Color("Accent"))
                     .cornerRadius(12)
             }
-
         }
         .padding(32)
         .background(Color("BackgroundPrimary"))
     }
+
 
 }
