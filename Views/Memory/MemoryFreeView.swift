@@ -7,26 +7,39 @@ struct MemoryFreeView: View {
     let memories = MemoryLoader.load()
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 32) {
+        // LISTA / EMPTY STATE
+        if memories.isEmpty {
 
-            Text("Memoria")
-                .font(.system(size: 15))
+            VStack(alignment: .leading, spacing: 8) {
+                Text("Aún no hay reflexiones guardadas.")
+                    .font(.system(size: 15))
+                    .foregroundColor(Color("TextPrimary"))
 
-            ForEach(memories) { memory in
-                MemoryCardView(memory: memory)
-                    .onTapGesture {
-                        showLocked = true
-                    }
+                Text("Cuando escribas tus ideas, aparecerán aquí.")
+                    .font(.system(size: 13))
+                    .foregroundColor(Color("TextSecondary").opacity(0.6))
             }
+            .padding(.top, 32)
+
+        } else {
+
+            VStack(spacing: 32) {
+                ForEach(memories) { memory in
+                    MemoryCardView(memory: memory)
+                        .onTapGesture {
+                            showLocked = true
+                        }
+                }
+            }
+        }
+
 
 
             Spacer()
-        }
+        
         .padding(32)
         .sheet(isPresented: $showLocked) {
             MemoryLockedView()
         }
-
     }
 }
-
