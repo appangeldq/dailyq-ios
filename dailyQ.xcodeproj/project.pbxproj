@@ -17,6 +17,7 @@
 		0BBBC6DC2F3815820047F677 /* MemoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6DB2F3815820047F677 /* MemoryItem.swift */; };
 		0BBBC6DF2F3815AB0047F677 /* MemoryLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6DE2F3815AB0047F677 /* MemoryLoader.swift */; };
 		0BBBC6E22F3815EA0047F677 /* MemoryFreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6E12F3815EA0047F677 /* MemoryFreeView.swift */; };
+		0BBBC6E52F3816EE0047F677 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBC6E42F3816EE0047F677 /* AccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		0BBBC6DB2F3815820047F677 /* MemoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryItem.swift; sourceTree = "<group>"; };
 		0BBBC6DE2F3815AB0047F677 /* MemoryLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLoader.swift; sourceTree = "<group>"; };
 		0BBBC6E12F3815EA0047F677 /* MemoryFreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryFreeView.swift; sourceTree = "<group>"; };
+		0BBBC6E42F3816EE0047F677 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		0BBBC6D02F3810600047F677 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0BBBC6E32F3816E00047F677 /* Account */,
 				0BBBC6E02F3815D60047F677 /* Memory */,
 				0BBBC6D32F3812DE0047F677 /* Daily */,
 			);
@@ -115,6 +118,14 @@
 				0BBBC6E12F3815EA0047F677 /* MemoryFreeView.swift */,
 			);
 			path = Memory;
+			sourceTree = "<group>";
+		};
+		0BBBC6E32F3816E00047F677 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				0BBBC6E42F3816EE0047F677 /* AccountView.swift */,
+			);
+			path = Account;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 				0BBBC6E22F3815EA0047F677 /* MemoryFreeView.swift in Sources */,
 				0BBBC6D22F3810770047F677 /* DailyFlowView.swift in Sources */,
 				0BBBC6DC2F3815820047F677 /* MemoryItem.swift in Sources */,
+				0BBBC6E52F3816EE0047F677 /* AccountView.swift in Sources */,
 				0BBBC6D52F3812F70047F677 /* Home.swift in Sources */,
 				0BBBC6D92F3814360047F677 /* Completed.swift in Sources */,
 				0BBBC6DF2F3815AB0047F677 /* MemoryLoader.swift in Sources */,
