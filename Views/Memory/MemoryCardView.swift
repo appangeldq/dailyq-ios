@@ -10,24 +10,32 @@ struct MemoryCardView: View {
             // Fecha
             Text(memory.date.formatted(date: .long, time: .omitted))
                 .font(.system(size: 12))
-                .foregroundColor(Color("TextTertiary"))
+                .foregroundColor(
+                    Color("TextSecondary").opacity(0.4)
+                )
 
             // Pregunta
             Text(memory.question)
-                .font(.system(size: 15))
-                .foregroundColor(Color("TextPrimary"))
-                .lineLimit(2)
+                .font(.system(size: 15, weight: .semibold))
+                .foregroundColor(
+                    Color("TextPrimary")
+                )
+                .lineLimit(3)
 
             // Nota (si existe)
             if let note = memory.note, !note.isEmpty {
                 Text(note)
-                    .font(.system(size: 13))
-                    .foregroundColor(Color("TextSecondary").opacity(0.6))
+                    .font(.system(size: 13, weight: .regular))
+                    .foregroundColor(
+                        Color("TextSecondary").opacity(0.6)
+                    )
                     .lineLimit(2)
             }
         }
         .padding(16)
-        .background(Color("BackgroundPrimary"))
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(Color("BackgroundSecondary"))
         .cornerRadius(12)
     }
 }
+
