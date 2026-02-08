@@ -21,8 +21,10 @@ struct Reflection: View {
             Spacer()
 
             Button("Guardar") {
+                day.saveReflection(text)
                 day.status = .completed
             }
+
         }
         .padding(32)
     }
