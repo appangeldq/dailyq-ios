@@ -3,6 +3,8 @@ import Foundation
 struct MemoryItem: Identifiable {
     let id = UUID()
     let date: Date
-    let text: String
+    let question: String
+    let note: String?
 }
+
 

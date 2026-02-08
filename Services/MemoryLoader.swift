@@ -12,15 +12,20 @@ struct MemoryLoader {
         formatter.dateFormat = "yyyy-MM-dd"
 
         let items: [MemoryItem] = keys.compactMap { key in
+            let dateString = key.replacingOccurrences(of: "reflection_", with: "")
+
             guard
-                let dateString = key.replacingOccurrences(of: "reflection_", with: "") as String?,
                 let date = formatter.date(from: dateString),
                 let text = defaults.string(forKey: key)
             else {
                 return nil
             }
 
-            return MemoryItem(date: date, text: text)
+            return MemoryItem(
+                date: date,
+                question: "Pregunta del día",
+                note: text
+            )
         }
 
         return items
@@ -29,3 +34,4 @@ struct MemoryLoader {
             .map { $0 }
     }
 }
+
