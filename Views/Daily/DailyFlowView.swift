@@ -15,7 +15,10 @@ struct DailyFlowView: View {
 
 
         case .answering:
-            Reflection(day: day)
+            if let question = DailyQuestionLoader.questionForToday() {
+                Reflection(day: day, question: question)
+            }
+
 
         case .completed:
             Completed(day: day)
